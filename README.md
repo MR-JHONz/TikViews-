@@ -1,7 +1,3 @@
-#### Paid unpatched viewbot for 24.99€ !!: https://onlp.sellix.io or in dc server 
-repo works again, maybe needs proxies but here you go
-
-<h2 align="center">server: <a href="https://discord.gg/onlp">discord.gg/onlp</a></h2>
 
 <!--
 <p align="center">
@@ -11,7 +7,7 @@ repo works again, maybe needs proxies but here you go
 
 &emsp;
 
-<h2 align="center">tutorial: <a href="https://www.youtube.com/watch?v=x97aLsPSJtQ">youtube.com/watch?v=x97aLsPSJtQ</a></h2>
+<h2 align="center">tutorial: <a href="https://www.youtube.com/@Mr_jhon26">SUBSCRIBE YT SAYA</a></h2>
 
 <!--
 <p align="center">
@@ -36,32 +32,23 @@ repo works again, maybe needs proxies but here you go
 -->
 
 <p align="center"> 
-<img src="https://cdn.discordapp.com/attachments/979095432682676264/996481048605106186/unknown.png"></img>
+<img src="https://i.ibb.co/b1HmDb0/20231113-083808.png"></img>
 </p>
 
-skids:
-```
-  https://github.com/XNorealsS/tiktokbot-view
-  https://github.com/haphucduy28/1/blob/main/viewtiktok.py
-```
+pkg update -y
 
-How to run:
-```
-  1. Verify that you have pip and python installed => https://www.youtube.com/watch?v=dYfKJMPNMDw
-  2. Run this command in cmd: pip install requests bs4 cursor pystyle pillow
-  3. replace the video id in config.json by yours
-  4. run the python file by double clicking on it or type: python viewbot.py
-```
+pkg upgrade -y
 
-Advantages:
-```
-  1.  fast, easy
-  2.  lightweight
-  3.  Has dynamic views count running on TikTok API
-  4.  mobile users can run it
-```
-To come:
-```
-  1. Proxy support
-  3. Bot using freer api so 2x faster (freer api is gay)
-```
+pkg install git -y
+
+pkg install python && python2 -y
+
+git clone https://github.com/MR-JHONz/TikViews-
+
+cd TikViews-
+
+pip install requests
+
+pip install bs4
+
+python bot.py
